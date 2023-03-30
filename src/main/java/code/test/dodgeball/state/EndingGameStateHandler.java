@@ -105,9 +105,7 @@ public class EndingGameStateHandler extends CommonGameStateHandler {
     }
 
     private void onPlayerQuit(PlayerQuitEvent event) {
-        PlayerState player = manager.getParticipant(event.getPlayer().getUniqueId());
-
-        manager.getParticipants().remove(player.getUuid());
+        manager.getParticipants().remove(event.getPlayer().getUniqueId());
     }
 
     private void spawnFirework(Location location, Color color) {
