@@ -1,0 +1,16 @@
+locations:
+  # FORMAT:: worldName:x:y:z:yaw:pitch
+  lobby: 'world:-57:93:-263:0.0:0.0'
+  # FORMAT :: Same as Team Spawns
+  snowballs: 'world:-68:82:-264:-47:82:-264'
+  spawns:
+    # FORMAT:: worldName:x1:y1:z1:x2:z2:yaw
+    red: 'world:-47:82:-247:-68:-247:180'
+    blue: 'world:-47:82:-280:68:-280:0'
+  space:
+    # FORMAT:: worldName:x1:y1:z1:x2:y2:z2
+    red: 'world:-44:81:-244:-71:84:-263'
+    blue: 'world:-71:81:-283:-44:84:-264'
+commands:
+  victory:
+    - 'give {player} diamond 4'

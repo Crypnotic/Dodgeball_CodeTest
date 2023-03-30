@@ -1,0 +1,7 @@
+name: Dodgeball
+version: 1.0.0
+main: code.test.dodgeball.DodgeballPlugin
+description: SpaceDelta Dodgeball coding test
+author: Crypnotic
+api-version: 1.19
+softdepend: [PlaceholderAPI]
